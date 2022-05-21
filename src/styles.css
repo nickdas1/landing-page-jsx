@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav > p {
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+input {
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+    padding: 5px 0;
+    width: 20%;
+    margin: 20px auto;
+    display: block;
+}
+
+input::placeholder {
+    text-align: center;
+    color: white;
+}
+
+.App {
+  font-family: Poppins;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero-section {
+    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url('https://assets.codepen.io/6060109/agency-hero-image.png');
+    background-size: cover;
+    height: 600px;
+    color: white;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+}
+
+.services-section {
+    margin: 100px 0;
+}
+
+.services-section > h2 {
+    color: #133588;
+}
+
+.services-blocks {
+    display: flex;
+    justify-content: center;
+}
+
+.services-blocks > div {
+    margin: 20px;
+}
+
+.footer-section {
+    height: 400px;
+    background-color: #133588;
+    color: white;
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+.footer-section > h2 {
+    width: 50px;
+    margin: auto;
+}
+
+.submit {
+    border: none;
+    background-color: white;
+    padding: 5px 15px;
+}
